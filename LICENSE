@@ -1,0 +1,19 @@
+Artists' Resources
+------------------
+
+The "program code" part (`myb` file) of all brushes are licensed by their
+respective authors and released as CC0/public domain.
+Thumbnail license is still to be determined.
+
+See file `COPYING` for the legal code in plain text.
+
+For resources, licenses which would restrict artists choice over licensing of
+their own work were a palette, background image, or brush to be embedded
+automatically into a file created with MyPaint MUST be avoided if any
+possibility of such automatic embedding exists with current MyPaint code.
+
+No facility exists at present for embedding palettes, but brush program code
+currently does embed. We currently require Public Domain licensing, or CC0, for
+brushes and background images as a consequence. Should MyPaint add a facility
+for embedding palette data automatically into artwork, those palettes licensed
+under the GPL shall be dropped from the distribution.
