@@ -2,7 +2,7 @@ import os, sys
 
 Import('env', 'install_perms')
 
-mypaint_data_version = '1.1'
+mypaint_brushes_version = '1.1'
 
 # Generate a @pkgconfig_name.pc and a @pkgconfig_name-uninstalled.pc
 def create_pkgconfig_files(env, pkgconfig_name, version, description,
@@ -31,5 +31,5 @@ env = env.Clone()
 Export('env')
 
 env.Append(CPPPATH='./')
-create_pkgconfig_files(env, 'mypaint-data', mypaint_data_version, 'MyPaint data',
-                       deps=[], libs=[], linkflags=[])
+create_pkgconfig_files(env, 'mypaint-brushes', mypaint_brushes_version,
+                       'MyPaint brushes', deps=[], libs=[], linkflags=[])
