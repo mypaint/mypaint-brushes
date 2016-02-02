@@ -1,0 +1,7 @@
+datadir=@DATADIR@
+
+Name: @NAME@
+Description: @DESCRIPTION@
+Version: @VERSION@
+
+Cflags: -DMYPAINT_DATADIR="\"@DATADIR@\""
