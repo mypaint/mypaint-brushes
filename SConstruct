@@ -2,6 +2,7 @@ import os, sys
 from SCons.Script.SConscript import SConsEnvironment
 import SCons.Util
 
+mypaint_brushes_version = '1.0'
 default_prefix = '/usr/local/'
 
 opts = Variables()
@@ -63,7 +64,7 @@ def install_tree(env, dest, path, perms=0644, dirperms=0755):
         install_perms(env, target_dir, filepaths, perms=perms, dirperms=dirperms)
 
 # Common
-install_tree(env, '$prefix/share/mypaint-data', 'brushes')
+install_tree(env, '$prefix/share/mypaint-data/{}/'.format(mypaint_brushes_version), 'brushes')
 
-Export('env', 'install_tree', 'install_perms')
+Export('env', 'install_tree', 'install_perms', 'mypaint_brushes_version')
 brushdata = SConscript('./SConscript')

@@ -4,4 +4,4 @@ Name: @NAME@
 Description: @DESCRIPTION@
 Version: @VERSION@
 
-Cflags: -DMYPAINT_BRUSHDIR="\"@DATADIR@/mypaint-data/brushes\""
+Cflags: -DMYPAINT_BRUSHDIR="\"@DATADIR@/mypaint-data/@VERSION@/brushes\""
