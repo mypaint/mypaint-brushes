@@ -1,8 +1,6 @@
 import os, sys
 
-Import('env', 'install_perms')
-
-mypaint_brushes_version = '1.1'
+Import('env', 'install_perms', 'mypaint_brushes_version')
 
 # Generate a @pkgconfig_name.pc and a @pkgconfig_name-uninstalled.pc
 def create_pkgconfig_files(env, pkgconfig_name, version, description,
@@ -20,7 +18,7 @@ def create_pkgconfig_files(env, pkgconfig_name, version, description,
         '@DATADIR@': os.path.join(env['prefix'], 'share'),
         '@INCLUDEDIR@': os.path.join(env['prefix'], 'include'),
     }
-    pc_file = env.Substfile('%s.pc' % pkgconfig_name,
+    pc_file = env.Substfile('%s-%s.pc' % (pkgconfig_name, version),
                             "pkgconfig.pc.in", SUBST_DICT=pkg_info)
     install_perms(env, '$prefix/share/pkgconfig', pc_file)
 
