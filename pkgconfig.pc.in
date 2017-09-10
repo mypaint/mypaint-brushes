@@ -1,4 +1,4 @@
-brushdir=@DATADIR@/mypaint-data/brushes
+brushdir=@DATADIR@/mypaint-data/@VERSION@/brushes
 
 Name: @NAME@
 Description: @DESCRIPTION@
