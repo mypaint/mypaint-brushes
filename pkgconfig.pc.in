@@ -1,7 +1,7 @@
-brushdir=@DATADIR@/mypaint-data/@VERSION@/brushes
+brushdir=@DATADIR@/mypaint-data/@API_VERSION@/brushes
 
 Name: @NAME@
 Description: @DESCRIPTION@
 Version: @VERSION@
 
-Cflags: -DMYPAINT_BRUSHDIR="\"@DATADIR@/mypaint-data/@VERSION@/brushes\""
+Cflags: -DMYPAINT_BRUSHDIR="\"@DATADIR@/mypaint-data/@API_VERSION@/brushes\""

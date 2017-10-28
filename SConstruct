@@ -2,7 +2,13 @@ import os, sys
 from SCons.Script.SConscript import SConsEnvironment
 import SCons.Util
 
+# The API version should stay 2.0 as long as the brushes keep the same
+# format, which is also forward-compatible with libmypaint 2.0.
+mypaint_brushes_api_version = '2.0'
+# This is the actual release version which should be incremented as
+# usual to indicate an update.
 mypaint_brushes_version = '2.0'
+
 default_prefix = '/usr/local/'
 
 opts = Variables()
@@ -64,7 +70,7 @@ def install_tree(env, dest, path, perms=0644, dirperms=0755):
         install_perms(env, target_dir, filepaths, perms=perms, dirperms=dirperms)
 
 # Common
-install_tree(env, '$prefix/share/mypaint-data/{}/'.format(mypaint_brushes_version), 'brushes')
+install_tree(env, '$prefix/share/mypaint-data/{}/'.format(mypaint_brushes_api_version), 'brushes')
 
-Export('env', 'install_tree', 'install_perms', 'mypaint_brushes_version')
+Export('env', 'install_tree', 'install_perms', 'mypaint_brushes_api_version', 'mypaint_brushes_version')
 brushdata = SConscript('./SConscript')
