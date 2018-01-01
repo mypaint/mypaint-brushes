@@ -1,3 +1,15 @@
 .sconsign.dblite
 
-mypaint-brushes.pc
+mypaint-brushes-1.0.pc
+
+aclocal.m4
+autom4te.cache/
+ChangeLog
+configure
+config.log
+config.status
+INSTALL
+install-sh
+Makefile
+Makefile.in
+missing
