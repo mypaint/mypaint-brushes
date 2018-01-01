@@ -1,0 +1,4 @@
+See the git log for proper authorship of every file.
+This git command will give you a list of authors:
+
+> git shortlog  -sn
