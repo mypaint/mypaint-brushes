@@ -1,10 +1,10 @@
 prefix=@prefix@
 datarootdir=@datarootdir@
 datadir=@datadir@
-brushdir=@datadir@/mypaint-data/@MYPAINT_DATA_VERSION@/brushes
+brushesdir=@datadir@/mypaint-data/@MYPAINT_DATA_VERSION@/brushes
 
 Name: @PACKAGE@
 Description: Brushes used by MyPaint and other software using libmypaint.
 Version: @VERSION@
 
-Cflags: -DMYPAINT_BRUSHDIR="\"${brushdir}\""
+Cflags: -DMYPAINT_BRUSHES_DIR="\"${brushesdir}\""
