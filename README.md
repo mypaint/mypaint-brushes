@@ -23,6 +23,7 @@ There are also historical scons scripts, but they work only with scons
 2.x (and in particular not newer scons 3, based on Python 3):
 
 > scons prefix=/your/application/install/prefix # Normal build
+
 > scons -h                                      # Show build options
 
 Using the brushes with pkg-config
