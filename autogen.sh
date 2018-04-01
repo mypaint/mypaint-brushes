@@ -134,7 +134,7 @@ test $TEST_TYPE $FILE || {
 }
 
 if test -z "$ACLOCAL_FLAGS"; then
-    m4list="glib-2.0.m4 glib-gettext.m4 intltool.m4 pkg.m4"
+    m4list="pkg.m4"
     acdir0=`$ACLOCAL --print-ac-dir`
     acpaths=`echo "${ACLOCAL_PATH}:${acdir0}" | sed 's/:/ /g'`
     for file in $m4list; do
