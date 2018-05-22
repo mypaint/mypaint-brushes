@@ -7,9 +7,9 @@
 # tools and you shouldn't use this script. Just call ./configure
 # directly.
 
-ACLOCAL=${ACLOCAL-aclocal-1.13}
+ACLOCAL=${ACLOCAL-aclocal}
 AUTOCONF=${AUTOCONF-autoconf}
-AUTOMAKE=${AUTOMAKE-automake-1.13}
+AUTOMAKE=${AUTOMAKE-automake}
 
 AUTOCONF_REQUIRED_VERSION=2.62
 AUTOMAKE_REQUIRED_VERSION=1.13
