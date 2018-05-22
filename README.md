@@ -12,7 +12,7 @@ Building
 
 mypaint-brushes package can be installed as a typical autotools build:
 
-> ./configure --prefix=/some/prefix && make && make install
+> ./autogen.sh && ./configure --prefix=/some/prefix && make && make install
 
 See also `INSTALL` file.
 
