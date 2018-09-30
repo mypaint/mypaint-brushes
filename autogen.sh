@@ -89,19 +89,9 @@ fi
 
 echo -n "checking for automake >= $AUTOMAKE_REQUIRED_VERSION ... "
 if ($AUTOMAKE --version) < /dev/null > /dev/null 2>&1; then
-   AUTOMAKE=$AUTOMAKE
-elif (automake-1.16 --version) < /dev/null > /dev/null 2>&1; then
-   AUTOMAKE=automake-1.16
-   ACLOCAL=aclocal-1.16
-elif (automake-1.15 --version) < /dev/null > /dev/null 2>&1; then
-   AUTOMAKE=automake-1.15
-   ACLOCAL=aclocal-1.15
-elif (automake-1.14 --version) < /dev/null > /dev/null 2>&1; then
-   AUTOMAKE=automake-1.14
-   ACLOCAL=aclocal-1.14
-elif (automake-1.13 --version) < /dev/null > /dev/null 2>&1; then
-   AUTOMAKE=automake-1.13
-   ACLOCAL=aclocal-1.13
+    VER=`$AUTOMAKE --version \
+         | grep automake | sed "s/.* \([0-9.]*\)[-a-z0-9]*$/\1/"`
+    check_version $VER $AUTOMAKE_REQUIRED_VERSION
 else
     echo
     echo "  You must have automake $AUTOMAKE_REQUIRED_VERSION or newer installed to compile $PROJECT."
@@ -110,13 +100,6 @@ else
     echo
     DIE=1
 fi
-
-if test x$AUTOMAKE != x; then
-    VER=`$AUTOMAKE --version \
-         | grep automake | sed "s/.* \([0-9.]*\)[-a-z0-9]*$/\1/"`
-    check_version $VER $AUTOMAKE_REQUIRED_VERSION
-fi
-
 
 if test "$DIE" -eq 1; then
     echo
