@@ -15,9 +15,10 @@ Building
 
 mypaint-brushes package can be installed as a typical autotools build:
 
-> ./configure --prefix=/some/prefix && make && make install
+> ./autogen.sh
 
-See also `INSTALL` file.
+> ./configure && make && make install
+
 
 There are also historical scons scripts, but they work only with scons
 2.x (and in particular not newer scons 3, based on Python 3):
