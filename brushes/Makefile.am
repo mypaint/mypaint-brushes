@@ -36,8 +36,6 @@ dieterle_DATA = \
   Dieterle/HalfToneCMY\#1_prev.png  \
   Dieterle/Pencil-_Left_Handed.myb  \
   Dieterle/Pencil-_Left_Handed_prev.png  \
-  Dieterle/Pencil-tilt.myb  \
-  Dieterle/Pencil-tilt_prev.png  \
   Dieterle/Posterizer.myb  \
   Dieterle/Posterizer_prev.png  \
   Dieterle/Round\#1.myb  \
