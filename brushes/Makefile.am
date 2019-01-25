@@ -5,8 +5,51 @@ experimentaldir = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/experim
 kaerhondir      = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/kaerhon_v1/
 ramondir        = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/ramon/
 tandadir        = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/tanda/
+dieterledir     = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/Dieterle/
 
 brushes_DATA = order.conf
+
+dieterle_DATA = \
+  Dieterle/8B_Pencil\#1.myb  \
+  Dieterle/8B_Pencil\#1_prev.png  \
+  Dieterle/arrow\#1.myb  \
+  Dieterle/arrow\#1_prev.png  \
+  Dieterle/Blender.myb  \
+  Dieterle/Blender_prev.png  \
+  Dieterle/Dissolver.myb  \
+  Dieterle/Dissolver_prev.png  \
+  Dieterle/Eraser.myb  \
+  Dieterle/Eraser_prev.png  \
+  Dieterle/Fan\#1.myb  \
+  Dieterle/Fan\#1_prev.png  \
+  Dieterle/Flat2\#1.myb  \
+  Dieterle/Flat2\#1_prev.png  \
+  Dieterle/Flight_Feathers.myb  \
+  Dieterle/Flight_Feathers_prev.png  \
+  Dieterle/Fountain_SF\#1.myb  \
+  Dieterle/Fountain_SF\#1_prev.png  \
+  Dieterle/Fount-offset\#1.myb  \
+  Dieterle/Fount-offset\#1_prev.png  \
+  Dieterle/HalfTone\#1.myb  \
+  Dieterle/HalfTone\#1_prev.png  \
+  Dieterle/HalfToneCMY\#1.myb  \
+  Dieterle/HalfToneCMY\#1_prev.png  \
+  Dieterle/Pencil-_Left_Handed.myb  \
+  Dieterle/Pencil-_Left_Handed_prev.png  \
+  Dieterle/Pencil-tilt.myb  \
+  Dieterle/Pencil-tilt_prev.png  \
+  Dieterle/Posterizer.myb  \
+  Dieterle/Posterizer_prev.png  \
+  Dieterle/Round\#1.myb  \
+  Dieterle/Round\#1_prev.png  \
+  Dieterle/Splash.myb  \
+  Dieterle/Splash_prev.png  \
+  Dieterle/Tail_Feathers2.myb  \
+  Dieterle/Tail_Feathers2_prev.png  \
+  Dieterle/Tail_Feathers.myb  \
+  Dieterle/Tail_Feathers_prev.png  \
+  Dieterle/WateryFlatbrush.myb  \
+  Dieterle/WateryFlatbrush_prev.png
 
 classic_DATA = \
 	classic/blending_knife.myb	\
