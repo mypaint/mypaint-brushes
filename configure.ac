@@ -22,9 +22,9 @@ m4_define([mypaint_data_version], [2.0])
 
 AC_INIT([MYPAINT_BRUSHES],
         [mypaint_brushes_version],
-        [https://github.com/Jehan/mypaint-brushes/issues],
+        [https://github.com/mypaint/mypaint-brushes/issues],
         [mypaint-brushes],
-        [https://github.com/Jehan/mypaint-brushes])
+        [https://github.com/mypaint/mypaint-brushes])
 
 AM_INIT_AUTOMAKE([no-define dist-xz no-dist-gzip
                   subdir-objects
