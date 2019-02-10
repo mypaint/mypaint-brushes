@@ -390,16 +390,6 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
