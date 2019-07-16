@@ -42,3 +42,23 @@ to get the same information with pkg-config and insert this value in
 your program in the relevant way.
 
 > pkg-config --variable=brushesdir mypaint-brushes-2.0
+
+Licensing policy
+----------------
+
+Only public domain (or [Creative Commons 1.0
+Universal](https://creativecommons.org/publicdomain/zero/1.0/) is an
+acceptable license for the official `mypaint-brushes` package.
+
+Optionally you may use CC BY (or CC BY-SA) 4.0 for the visible parts
+(such as preview image) but keep the raw brush settings public domain.
+
+By contributing new brushes, you therefore agree for them to be
+relicensed Public Domain/CC0 1.0. If you want to propose someone else's
+brushes, whose copyright you do not own, and if the brushes were not
+already explicitly license CC0 1.0, you must first contact the original
+authors.
+
+The rest of this package (installation scripts, etc.) is license GPL-2+
+(similarly to the MyPaint package). See `Licenses.dep5` for more
+accurate licensing and authorship information.
