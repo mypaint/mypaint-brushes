@@ -7,9 +7,9 @@ ramondir        = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/ramon/
 tandadir        = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/tanda/
 dieterledir     = $(datadir)/mypaint-data/@MYPAINT_DATA_VERSION@/brushes/Dieterle/
 
-brushes_DATA = order.conf
+dist_brushes_DATA = order.conf
 
-dieterle_DATA = \
+dist_dieterle_DATA = \
   Dieterle/8B_Pencil\#1.myb  \
   Dieterle/8B_Pencil\#1_prev.png  \
   Dieterle/arrow\#1.myb  \
@@ -49,7 +49,7 @@ dieterle_DATA = \
   Dieterle/WateryFlatbrush.myb  \
   Dieterle/WateryFlatbrush_prev.png
 
-classic_DATA = \
+dist_classic_DATA = \
 	classic/blending_knife.myb	\
 	classic/blending_knife_prev.png	\
 	classic/blend+paint.myb	\
@@ -121,7 +121,7 @@ classic_DATA = \
 	classic/wet_knife.myb	\
 	classic/wet_knife_prev.png
 
-deevad_DATA = \
+dist_deevad_DATA = \
 	deevad/2B_pencil.myb	\
 	deevad/2B_pencil_prev.png	\
 	deevad/4H_pencil.myb	\
@@ -196,7 +196,7 @@ deevad_DATA = \
 	deevad/watercolor_glazing.myb	\
 	deevad/watercolor_glazing_prev.png
 
-experimental_DATA = \
+dist_experimental_DATA = \
 	experimental/1pixel.myb	\
 	experimental/1pixel_prev.png	\
 	experimental/basic.myb	\
@@ -244,7 +244,7 @@ experimental_DATA = \
 	experimental/track.myb	\
 	experimental/track_prev.png
 
-kaerhon_DATA = \
+dist_kaerhon_DATA = \
 	kaerhon_v1/airbruch_press_a.myb	\
 	kaerhon_v1/airbruch_press_a_prev.png	\
 	kaerhon_v1/Airbrush_a.myb	\
@@ -287,7 +287,7 @@ kaerhon_DATA = \
 	kaerhon_v1/wet_paint_sm.myb	\
 	kaerhon_v1/wet_paint_sm_prev.png
 
-ramon_DATA = \
+dist_ramon_DATA = \
 	ramon/100%_Opaque.myb	\
 	ramon/100%_Opaque_prev.png	\
 	ramon/2B_pencil.myb	\
@@ -345,7 +345,7 @@ ramon_DATA = \
 	ramon/wet_round.myb	\
 	ramon/wet_round_prev.png
 
-tanda_DATA = \
+dist_tanda_DATA = \
 	tanda/acrylic-03-only-water.myb	\
 	tanda/acrylic-03-only-water_prev.png	\
 	tanda/acrylic-03-paint.myb	\
