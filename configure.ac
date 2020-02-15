@@ -8,7 +8,7 @@ AC_PREREQ(2.62)
 # now. It may get out of sync later on.
 m4_define([mypaint_brushes_major], [2])
 m4_define([mypaint_brushes_minor], [0])
-m4_define([mypaint_brushes_micro], [0])
+m4_define([mypaint_brushes_micro], [2])
 
 # The package version is "major.minor.micro[-prerelease]".
 m4_define([mypaint_brushes_version],
