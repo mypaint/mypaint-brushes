@@ -4,11 +4,16 @@ mypaint-brushes - MyPaint brushes
 Brushes used by MyPaint and other software using libmypaint.
 
 This data package is versionned. This are the brushes to be used by
-libmypaint 2.x, current development version which has no releases to the
-day of writing.
-If you want brushes for the libmypaint 1.x releases, do not install
+libmypaint 2.x, current development version which as of writing, has no releases.
+
+If you want brushes compatible with libmypaint < 1.5, do not install
 mypaint-brushes from master, but from "v1.3.x" branch (or last release
 tagged with a "v1.x" version).
+
+libmypaint >= 1.5 supports the larger number of input points that are
+used in some mappings in the 2.x brushes, which would cause older versions
+of libmypaint to crash if loading the brush data unchecked. It also added
+an alternative API with full support for the new features in 2.x brushes. 
 
 Building
 ---------
