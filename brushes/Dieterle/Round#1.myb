@@ -787,7 +787,7 @@
                         0.0
                     ]
                 ], 
-                "surfacemap_x": [
+                "gridmap_x": [
                     [
                         0.0, 
                         0.0
@@ -797,7 +797,7 @@
                         0.0
                     ]
                 ], 
-                "surfacemap_y": [
+                "gridmap_y": [
                     [
                         0.0, 
                         0.0
